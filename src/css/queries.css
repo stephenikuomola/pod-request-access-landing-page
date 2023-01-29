@@ -1,0 +1,141 @@
+
+/* Targetting devices that can hover*/
+@media(hover: hover) {
+.btn:hover{
+    background-color: var(--aqua-margine-hover); 
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.5); 
+  }
+}
+
+
+/* Tablet View  - 768px */
+@media only screen and (min-width: 48em) {
+
+  .logo--link {
+    display:var(--inline-block)
+  }
+
+  .logo--link img {
+    margin-inline-start: var(--gap-50) 
+  }
+
+  header{
+    background-image: url('../../assets/tablet/image-host.jpg'), url('../../assets/desktop/bg-pattern-dots.svg'); 
+    background-repeat: no-repeat, no-repeat; 
+    background-position: right top, 10% bottom;
+    background-size: 491px 79%, 20% 10%; 
+    background-blend-mode:normal, normal;
+    padding-bottom: var(--gap-150); 
+  }
+
+  .header-content {
+    margin-inline-start: var(--gap-40);
+    margin-inline-end: unset; 
+    width: 63.5rem; 
+    text-align: left; 
+    background-color: var(--mirage); 
+  }
+
+  .header-content{
+    padding-block-start: var(--gap-90); 
+  }
+
+  .header-content__text {
+    width: 70%; 
+  }
+
+
+  .group-company__logos {
+    order: 2; 
+    justify-content: flex-start; 
+  }
+
+  /* I think there is a better way of doing this but for now let me just make it work the way I want  */
+  .group-company__logos img:nth-child(1) {
+    flex-basis: 96px;
+    height: 29px;  
+    margin-inline-end: var(--gap-40); 
+
+  }
+  
+  
+  .group-company__logos img:nth-child(2) {
+    flex-basis: 78px; 
+    height: 29px; 
+    margin-inline-end: var(--gap-40); 
+  }
+  
+  
+  .group-company__logos img:nth-child(3) {
+    flex-basis: 125px; 
+    height: 18px;  
+    margin-inline-end: var(--gap-27_5); 
+  }
+  
+  
+  .group-company__logos img:last-child{
+    flex-basis: 129px;
+    height: 26px; 
+  }
+
+  .form{
+    background-color: var(--tuna); 
+    width: 70%; 
+    border-radius: var(--radius-8);
+    padding-left: var(--gap-30);
+    padding-block: var(--gap-2_5); 
+    padding-right: var(--gap-2_5); 
+    position:relative; 
+  }
+
+  .email-container {
+    flex-basis: 40%; 
+    flex-grow: 1;
+  }
+
+
+  input[type=email] {
+    background-color: transparent; 
+    padding-inline-start: unset; 
+    border-radius: unset;
+  }
+
+  .btn {
+    flex-basis: 20%; 
+    flex-grow: 1; 
+  }
+
+  .error-message {
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+   
+  }
+  
+}
+
+
+/* Desktop View - 1300px  */
+@media only screen and (min-width: 81.25em) {
+  .logo--link img {
+    margin-inline-start: var(--gap-160) 
+  }
+
+  
+  header{
+    background-image: url('../../assets/desktop/bg-pattern-dots.svg'),url('../../assets/desktop/image-host.jpg') ; 
+    background-repeat: no-repeat, no-repeat; 
+    background-position: right 85%, right 40%;
+    background-size: 15% 10%, 888px 70%;
+  }
+
+  .header-content {
+    width: 72.3rem; 
+    margin-inline-start: var(--gap-160);
+  }
+
+  .header-content__text, .form {
+    width: 80%; 
+  }
+
+}
