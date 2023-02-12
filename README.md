@@ -32,7 +32,7 @@ To run interactive ratings component locally run this command on your git bash/t
 Linux and MacOs 
 
 ```bash
-sudo git clone https://github.com/salutDami/pod-request-access-landing-page.git
+sudo git clone https://github.com/TraversetheDOM/pod-request-access-landing-page.git
 
 npm install
 
@@ -42,7 +42,7 @@ npm run start
 Windows
 
 ```bash
-git clone https://github.com/salutDami/pod-request-access-landing-page.git
+git clone https://github.com/TraversetheDOM/pod-request-access-landing-page.git
 
 npm install 
 
