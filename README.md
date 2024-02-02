@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  A Full Responsive Landing Page < br > Responsive for all devices, built using HTML, CSS, and JavaScript.
+  A Full Responsive Landing Page <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
   <a href="https://access-pod-request.netlify.app/"><strong>➥ Live Demo</strong></a>
 
