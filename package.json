@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TraversetheDOM/pod-request-access-landing-page.git"
+    "url": "git+https://github.com/stephenikuomola/pod-request-access-landing-page.git"
   },
   "author": "Stephen Ikuomola",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TraversetheDOM/pod-request-access-landing-page/issues"
+    "url": "https://github.com/stephenikuomola/pod-request-access-landing-page/issues"
   },
-  "homepage": "https://github.com/TraversetheDOM/pod-request-access-landing-page#readme",
+  "homepage": "https://github.com/stephenikuomola/pod-request-access-landing-page#readme",
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.8.2",
     "@parcel/transformer-webmanifest": "^2.8.2",
