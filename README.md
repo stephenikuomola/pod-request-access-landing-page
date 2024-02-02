@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  A Full Responsive Landing Page <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  A Full Responsive Landing Page < br/> Responsive for all devices, built using HTML, CSS, and JavaScript.
 
   <a href="https://access-pod-request.netlify.app/"><strong>➥ Live Demo</strong></a>
 
@@ -32,7 +32,7 @@ To run interactive ratings component locally run this command on your git bash/t
 Linux and MacOs 
 
 ```bash
-sudo git clone https://github.com/TraversetheDOM/pod-request-access-landing-page.git
+sudo git clone https://github.com/stephenikuomola/pod-request-access-landing-page.git
 
 npm install
 
@@ -42,7 +42,7 @@ npm run start
 Windows
 
 ```bash
-git clone https://github.com/TraversetheDOM/pod-request-access-landing-page.git
+git clone https://github.com/stephenikuomola/pod-request-access-landing-page.git
 
 npm install 
 
@@ -51,7 +51,7 @@ npm run start
 
 ### Contact
 
-If you want to contact me you can reach me at [Twitter](https://twitter.com/_TraverseDOM) or [LinkedIn](https://www.linkedin.com/in/ikuomola-stephen/) or [FrontEndMentor](https://www.frontendmentor.io/profile/salutDami)
+If you want to contact me you can reach me at [Twitter](https://twitter.com/stephenikuomola) or [LinkedIn](https://www.linkedin.com/in/ikuomola-stephen/) or [FrontEndMentor](https://www.frontendmentor.io/profile/stephenikuomola)
 
 ### License
 
